@@ -8,11 +8,11 @@ La gestión de insumos esta pensado para los gestores catastrales, que tengan qu
 
 1.  Para iniciar con el proceso diríjase a la siguiente ruta **LADM-Col—Gestion deInsumos – Ejecutar ETL de Insumos**
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/cap13gestioninsumos1.png" title="Paso 1" data-title="Paso 3"><img src="../_static/tutorial/cap13gestioninsumos1.png" class="align-center" width="800px" alt="Paso 1"/></a>
+<a class="" data-lightbox="Paso 1" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos1.png" title="Paso 1" data-title="Paso 3"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos1.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
 2.  se desplegará una opción donde solicita conocer que ETLs se van a ejecutar, para este ejercicio se trabajaran con archivos cobol por lo tanto se debe seleccionar la opción ETL para datos cobol y posteriormente dar clic en el botón **siguiente**
 
-<a class="" data-lightbox="Paso 2" href="../_static/tutorial/cap13gestioninsumos2.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/cap13gestioninsumos2.png" class="align-center" width="800px" alt="Paso 2"/></a>
+<a class="" data-lightbox="Paso 2" href="../_static/tutorial/\gestion_de_insumos/cap13gestioninsumos2.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos2.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
 3.  De inmediato se abrirá un cuadro de diálogo donde al dará clic en los botones que acompañan a cada una de las casillas, y podrá cargar cada uno de los archivos. lis y la geodatabase entregada por el gestor catastral, una vez cargada toda la información dar clic en **ejecutar ETL**
 
