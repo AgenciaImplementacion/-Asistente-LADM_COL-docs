@@ -1,26 +1,25 @@
 # Gestión de Insumos
-La gestión de insumos esta pensado para los gestores catastrales, que tengan que entregar sus datos a un operador, y estos no cuenten con una estructura LADM, para ello se hará uso de los datos de cobol que esta compuesto por una geodatabase y unos archivos.\*lis los cuales deben ser proporcionados por el gestor, y asi el operador use los **ETLs** correspondientes , que harán que el operador logre migrar esa información al modelo LADM-Col.
+La gestión de insumos esta pensado para los gestores catastrales que cuentan con datos para los operadores pero no están estructurados según el modelo LADM, para ello se hará uso de los datos cobol, compuestos por una geodatabase y unos archivos.\*lis, para que el operador haga uso de los **ETLs** correspondientes, y logre migrar esa información al modelo LADM-Col.
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
 <p>La palabra ETL corresponde a las siglas en inglés de Extraer: extract.,Transformar: transform.Y Cargar: load. Con ello, queremos decir que todo proceso ETL consta precisamente de estas tres fases: extracción, transformación y carga. Vamos a definir en qué consisten cada una de estas fases.</p>
 </div>
 
-1.  Para iniciar con el proceso diríjase a la siguiente ruta **LADM-Col—Gestion deInsumos – Ejecutar ETL de Insumos**
+1.  Para iniciar con el proceso diríjase a la siguiente ruta **LADM-Col—Gestión de Insumos – Ejecutar ETL de Insumos**
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos1.png" title="Paso 1" data-title="Paso 3"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos1.png" class="align-center" width="600px" alt="Paso 1"/></a>
 
-2.  se desplegará una opción donde solicita conocer que ETLs se van a ejecutar, para este ejercicio se trabajaran con archivos cobol por lo tanto se debe seleccionar la opción ETL para datos cobol y posteriormente dar clic en el botón **siguiente**
+2.  Se desplegará una opción solicitando conocer que ETLs se van a ejecutar, para este ejercicio se trabajaran con archivos cobol por lo tanto se debe seleccionar la opción ETL para datos cobol y dar clic en el botón **siguiente**
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/\gestion_de_insumos/cap13gestioninsumos2.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos2.png" class="align-center" width="400px" alt="Paso 2"/></a>
 
-3.  De inmediato se abrirá un cuadro de diálogo donde dará clic en los botones que acompañan a cada una de las casillas, y podrán cargar cada uno de los archivos. lis y la geodatabase entregada por el gestor catastral, una vez cargada toda la información dar clic en **ejecutar ETL**
+3. Abriendo un cuadro de diálogo donde dará clic en los botones que acompañan a cada una de las casillas, y podrán cargar cada uno de los archivos. lis y la geodatabase proporcionada por el gestor catastral, una vez cargada toda la información dar clic en **ejecutar ETL**
 
 <a class="" data-lightbox="Paso 3" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos3.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos3.gif" class="align-center" width="600px" alt="Paso 3"/></a>
 
-
-4.  se abrirá un cuadro de diálogo consultando si se desea continuar con la operación , se procede a dar clic en **SI ,** desencadenando el proceso, finalmente cuando este
-termine saldrá un mensaje de finalización , se dará clic en el botón **siguiente**
+4.  Surgirá un cuadro de diálogo, consultando si se desea o no continuar con la operación , se procede a dar clic en **SI ,** desencadenando el proceso, finalmente cuando este
+termine saldrá un mensaje de finalización , dar clic en el botón **siguiente**
 
 <a class="" data-lightbox="Paso 4" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos4.gif" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos4.gif" class="align-center" width="600px" alt="Paso 4"/></a>
 
@@ -42,11 +41,11 @@ termine saldrá un mensaje de finalización , se dará clic en el botón **sigui
 ## Identificación de novedades
 Esta es una herramienta pensada para identificar cambios, del barrido predial masivo, con los datos entregados por el gestor catastral.
 
-1.   Para iniciar con el proceso es necesario seguir la siguiente ruta **LADM-Col—identificacion de novedades—configurar identificación de novedades**
+1.   Para iniciar con el proceso es necesario seguir la siguiente ruta **LADM-Col—identificación de novedades—configurar identificación de novedades**
 
 <a class="" data-lightbox="Paso 1" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos8.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos8.png" class="align-center" width="800px" alt="Paso 1"/></a>
 
-2.  De inmediato se abre un cuadro de diálogo donde se solicita hacer la comparación a partir de las bases de datos generadas , para este proceso se ha ido trabajando con la misma base de datos, por lo tanto seleccionamos hacer la comparación con la misma base de datos y se procede a dar clic en **Aceptar.**
+2.  Abriendo un cuadro de diálogo donde se solicita hacer la comparación a partir de las bases de datos generadas , para este proceso se ha ido trabajando con la misma base de datos, por lo tanto seleccionamos hacer la comparación con la misma base de datos y se procede a dar clic en **Aceptar.**
 
 <a class="" data-lightbox="Paso 2" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos9.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos9.png" class="align-center" width="800px" alt="Paso 2"/></a>
 
