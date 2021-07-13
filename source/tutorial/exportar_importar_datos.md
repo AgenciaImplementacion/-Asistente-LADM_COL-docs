@@ -16,9 +16,9 @@ Para iniciar el proceso, se debe seguir la ruta **Administración de Datos -> Ex
 
 ### Paso 2: Selección de la Fuente.
 
-En primera medida se debe validar que la *Base de datos* a la cual se hace referencia corresponde al archivo que se desea exportar en formato de intercambio **.xtf**. 
+En primera medida, se debe validar que la *Base de datos* a la cual se hace referencia corresponde al archivo que se desea exportar en el formato de intercambio **.xtf**. 
 
-En caso de que esta no sea correcta, puedes cambiar la conexión dando clic en `Configurar conexión`.
+En caso de que ésta no sea correcta, puedes cambiar la conexión dando clic en `Configurar conexión`.
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
@@ -61,4 +61,4 @@ En la sección de *Destino* debes verificar que la conexión sobre la cual se va
 
 <a class="" data-lightbox="Paso3" href="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" title="Paso3" data-title="Paso3"><img src="../_static/tutorial/exportar_importar_datos/cap12importexport7.gif" class="align-center" width="800px" alt="Paso3"/></a>
 
-Al finalizar la importación aparecerá un aviso de confirmación en la ventana de *Importar Datos*, luego de su validación podrás finalizar dando clic en el botón `Cerrar`.
+Al finalizar la importación aparecerá un aviso de confirmación en la ventana de *Importar Datos*, luego de su validación podrás dar clic en el botón `Cerrar`.
