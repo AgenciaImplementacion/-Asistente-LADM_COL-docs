@@ -1,62 +1,80 @@
 # Gestión de Insumos
-La gestión de insumos esta pensado para los gestores catastrales que cuentan con datos para los operadores pero no están estructurados según el modelo LADM, para ello se hará uso de los datos cobol, compuestos por una geodatabase y unos archivos.\*lis, para que el operador haga uso de los **ETLs** correspondientes, y logre migrar esa información al modelo LADM-Col.
+
+## Ejecutar ETL de insumos Cobol
+
+Esta sección tiene por objetivo ejecutar el *ETL de Cobol* para pasar los datos en la estructura de Cobol a la estructura del submodelo de insumos de levantamiento catastral.
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>La palabra ETL corresponde a las siglas en inglés de Extraer: extract.,Transformar: transform.Y Cargar: load. Con ello, queremos decir que todo proceso ETL consta precisamente de estas tres fases: extracción, transformación y carga. Vamos a definir en qué consisten cada una de estas fases.</p>
+<p>El acronimo <i>ETL</i> corresponde a Extract,Transform y load (Extraer, Transformar y Cargar).</p>
 </div>
 
-1.  Para iniciar con el proceso diríjase a la siguiente ruta **LADM-Col—Gestión de Insumos – Ejecutar ETL de Insumos**
+### Paso 1: Abrir interfaz del ETL de Insumos
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos1.png" title="Paso 1" data-title="Paso 3"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos1.png" class="align-center" width="600px" alt="Paso 1"/></a>
+Para iniciar con el proceso debes dirigirte a la siguiente ruta **LADM-COL —> Gestión de Insumos –> Ejecutar ETL de Insumos**
 
-2.  Se desplegará una opción solicitando conocer que ETLs se van a ejecutar, para este ejercicio se trabajaran con archivos cobol por lo tanto se debe seleccionar la opción ETL para datos cobol y dar clic en el botón **siguiente**
+<a class="" data-lightbox="Paso 1: Ejecutar ETL de Insumos" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos1.png" title="Paso 1: Ejecutar ETL de Insumos" data-title="Paso 1: Ejecutar ETL de Insumos"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos1.png" class="align-center" width="800px" alt="Paso 1: Ejecutar ETL de Insumos"/></a>
 
-<a class="" data-lightbox="Paso 2" href="../_static/tutorial/\gestion_de_insumos/cap13gestioninsumos2.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos2.png" class="align-center" width="400px" alt="Paso 2"/></a>
+### Paso 2: Seleccionar ETL para datos de Cobol
 
-3. Abriendo un cuadro de diálogo donde dará clic en los botones que acompañan a cada una de las casillas, y podrán cargar cada uno de los archivos. lis y la geodatabase proporcionada por el gestor catastral, una vez cargada toda la información dar clic en **ejecutar ETL**
+Se despliega una interfaz en la cual debes seccionar la opción *ETL para datos de Cobol* y siguiente
 
-<a class="" data-lightbox="Paso 3" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos3.gif" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos3.gif" class="align-center" width="600px" alt="Paso 3"/></a>
+<a class="" data-lightbox="Paso 2: Seleccionar ETL para datos de Cobol" href="../_static/tutorial/\gestion_de_insumos/cap13gestioninsumos2.png" title="Paso 2: Seleccionar ETL para datos de Cobol" data-title="Paso 2: Seleccionar ETL para datos de Cobol"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos2.png" class="align-center" width="400px" alt="Paso 2: Seleccionar ETL para datos de Cobol"/></a>
 
-4.  Surgirá un cuadro de diálogo, consultando si se desea o no continuar con la operación , se procede a dar clic en **SI ,** desencadenando el proceso, finalmente cuando este
-termine saldrá un mensaje de finalización , dar clic en el botón **siguiente**
+### Paso 3: Seleccionar ETL para datos de Cobol
 
-<a class="" data-lightbox="Paso 4" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos4.gif" title="Paso 4" data-title="Paso 4"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos4.gif" class="align-center" width="600px" alt="Paso 4"/></a>
+En el siguiente dialogo que se visualiza, se habilitan las opciones para cargar los datos de cobol. Debes cargar cada uno de los archivos .lis que se encuentra en los datos proporcionados al inicio del tutorial y la GDB en el último recuadro. Una vez que esten cargados los archivos se habilita el boton `Ejecutar ETL` y debes dar clic sobre el.
 
-5.  Finalmente se despliega un cuadro de diálogo donde se muestra el numero de datos cargados y finalmente se procede a dar clic en el botón **finalizar**
+<a class="" data-lightbox="Paso 3: Seleccionar ETL para datos de Cobol" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos3.gif" title="Paso 3: Seleccionar ETL para datos de Cobol" data-title="Paso 3: Seleccionar ETL para datos de Cobol"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos3.gif" class="align-center" width="600px" alt="Paso 3: Seleccionar ETL para datos de Cobol"/></a>
 
-<a class="" data-lightbox="Paso 5" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos5.png" title="Paso 5" data-title="Paso 5"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos5.png" class="align-center" width="600px" alt="Paso 5"/></a>
+### Paso 4: Ejecutar ETL para datos de Cobol
+
+Surgirá un cuadro de diálogo, consultando si se desea o no continuar con la operación, debes dar clic en **SI**, seguido se comenzará a ejecutar el ETL. una vez que el ETL finalize de ejecutarse debes dar clic botón `siguiente`
+
+<a class="" data-lightbox="Paso 4: Ejecutar ETL para datos de Cobol" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos4.gif" title="Paso 4: Ejecutar ETL para datos de Cobol" data-title="Paso 4: Ejecutar ETL para datos de Cobol"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos4.gif" class="align-center" width="600px" alt="Paso 4: Ejecutar ETL para datos de Cobol"/></a>
+
+### Paso 5: Resultados del ETL para datos de Cobol
+
+Finalmente se despliega un cuadro de diálogo donde se muestra el resultado de la ejecución del ETL y debes dar clic en el botón ``finalizar`` para terminar el proceso del ETL.
+
+<a class="" data-lightbox="Paso 5: Resultados del ETL para datos de Cobol" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos5.png" title="Paso 5: Resultados del ETL para datos de Cobol" data-title="Paso 5: Resultados del ETL para datos de Cobol"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos5.png" class="align-center" width="600px" alt="Paso 5: Resultados del ETL para datos de Cobol"/></a>
 
 ## Cargar insumos del gestor catastral
 
-1. Para iniciar con la carga de los insumos cobol, iniciaremos dando clic en el botón <a class="" data-lightbox='Botón "Cargar capas"' href="../_static/tutorial/gestion_de_insumos/ICOcargarcapas.png" title='Botón "Cargar capas"' data-title='Botón "Cargar capas"'><img src="../_static/tutorial/gestion_de_insumos/ICOcargarcapas.png" width="20px" alt='Botón "Cargar capas"'/></a>,  conocido como  **cargar capas**.
+### Paso 1: Abrir interfaz Cargar capas
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos6.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos6.png" class="align-center" width="600px" alt="Paso 1"/></a>
+Inicia dando clic en el botón `Cargar capas` ![Botón Cargar capas](../_static/tutorial/gestion_de_insumos/ICOcargarcapas.png)
 
-2.  Se desplegará un cuadro de diálogo donde podremos cargar todas las capas provenientes del *submodelo de insumos del Gestor Catastral*, seleccionarlas y dar clic en el botón **Aceptar**
+<a class="" data-lightbox="Paso 1: Abrir interfaz Cargar capas" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos6.png" title="Paso 1: Abrir interfaz Cargar capas" data-title="Paso 1: Abrir interfaz Cargar capas"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos6.png" class="align-center" width="600px" alt="Paso 1: Abrir interfaz Cargar capas"/></a>
 
-<a class="" data-lightbox="Paso 2" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos7.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos7.png" class="align-center" width="400px" alt="Paso 2"/></a>
+### Paso 2: Abrir interfaz del ETL de Insumos
 
+En el cuadro de dialogo que se despliega selecciona todas las capas del *submodelo de insumos del Gestor Catastral* y debes dar clic en el botón `Aceptar`.
+
+<a class="" data-lightbox="Paso 2: Abrir interfaz del ETL de Insumos" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos7.png" title="Paso 2: Abrir interfaz del ETL de Insumos" data-title="Paso 2: Abrir interfaz del ETL de Insumos"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos7.png" class="align-center" width="400px" alt="Paso 2: Abrir interfaz del ETL de Insumos"/></a>
 
 ## Identificación de novedades
-Esta es una herramienta pensada para identificar cambios, del barrido predial masivo, con los datos entregados por el gestor catastral.
 
-1.   Para iniciar con el proceso es necesario seguir la siguiente ruta **LADM-Col—identificación de novedades—configurar identificación de novedades**
+### Paso 1: Abrir interfaz configurar identificación de novedades
 
-<a class="" data-lightbox="Paso 1" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos8.png" title="Paso 1" data-title="Paso 1"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos8.png" class="align-center" width="800px" alt="Paso 1"/></a>
+Para iniciar con el proceso debes dirigirte a la siguiente ruta **LADM-COL —> identificación de novedades —> configurar identificación de novedades**
 
-2.  Abriendo un cuadro de diálogo donde se solicita hacer la comparación a partir de las bases de datos generadas , para este proceso se ha ido trabajando con la misma base de datos, por lo tanto seleccionamos hacer la comparación con la misma base de datos y se procede a dar clic en **Aceptar.**
+<a class="" data-lightbox="Paso 1: Abrir interfaz configurar identificación de novedades" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos8.png" title="Paso 1: Abrir interfaz configurar identificación de novedades" data-title="Paso 1: Abrir interfaz configurar identificación de novedades"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos8.png" class="align-center" width="800px" alt="Paso 1: Abrir interfaz configurar identificación de novedades"/></a>
 
-<a class="" data-lightbox="Paso 2" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos9.png" title="Paso 2" data-title="Paso 2"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos9.png" class="align-center" width="800px" alt="Paso 2"/></a>
+### Paso 2: Configuracion de conexiones
 
-Finalmente se obtiene un mensaje de confirmación del proceso ejecutado con éxito, como lo muestra la siguiente imagen.
+Debido a que todo el proceso ha sido desarrollado en una única base de datos, se debe seleccionar la misma base de datos para *Barrido predial* y para *Insumos*. una vez que has seleccionado la misma base de datos, deberas dar clic en `Aceptar`, lo que genera un mensaje de confirmación del proceso ejecutado con éxito.
 
-<a class="" data-lightbox="Resultado" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos10.png" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos10.png" class="align-center" width="800px" alt="Resultado"/></a>
+<a class="" data-lightbox="Paso 2: Configuracion de conexiones" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos9.png" title="Paso 2: Configuracion de conexiones" data-title="Paso 2: Configuracion de conexiones"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos9.png" class="align-center" width="800px" alt="Paso 2: Configuracion de conexiones"/></a>
 
-3. Para la identificación de novedades es necesario seguir la siguiente ruta **LADM-Col—identificacion de novedades—consulta masiva
+### Paso 3: Abrir consulta masiva
 
-<a class="" data-lightbox="Paso 3" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos11.png" title="Paso 3" data-title="Paso 3"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos11.png" class="align-center" width="600px" alt="Paso 3"/></a>
+Para la identificación de novedades es necesario seguir la siguiente ruta **LADM-COL —> identificacion de novedades —> consulta masiva**
 
-Esta acción desplegara el proceso comparativo y finalmente se obtiene un resumen de novedades, los cuales no solo muestra la cantidad de predios que presentan cambios, como lo muestra la siguiente imagen, si no que al dar clic en el botón **ver predios** selecciona el predio e indica con mas detalle la novedad identificada. 
+<a class="" data-lightbox="Paso 3: Abrir consulta masiva" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos11.png" title="Paso 3: Abrir consulta masiva" data-title="Paso 3: Abrir consulta masiva"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos11.png" class="align-center" width="600px" alt="Paso 3: Abrir consulta masiva"/></a>
 
-<a class="" data-lightbox="Resultado" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos12.gif" title="Resultado" data-title="Resultado"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos12.gif" class="align-center" width="800px" alt="Resultado"/></a>
+### Paso 4: Resultado consulta masiva
+
+Se obtiene un resumen de novedades sobre el cual debes dar clic en el botón `ver predios` y seleccionar un predio para identificar el tipo de novedad. 
+
+<a class="" data-lightbox="Paso 4: Resultado consulta masiva" href="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos12.gif" title="Paso 4: Resultado consulta masiva" data-title="Paso 4: Resultado consulta masiva"><img src="../_static/tutorial/gestion_de_insumos/cap13gestioninsumos12.gif" class="align-center" width="800px" alt="Paso 4: Resultado consulta masiva"/></a>
